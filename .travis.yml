@@ -1,4 +1,9 @@
 language: android
+before_install:
+  - pwd
+  - ls -la
+  - chmod +x /.gradlew
+  
 android:
   components:
     - build-tools-19.0.3
